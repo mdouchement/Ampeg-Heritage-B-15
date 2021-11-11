@@ -1,0 +1,37 @@
+Heaters:
+- 6L6GC:   2 * 900mA = 1.8A
+- ECC81:   1 * 300mA = 300mA
+- 6SL7:    3 * 300mA = 900.0mA
+Choke: 5.39H
+Power consumed:
+- Ia: 129.1mA  - at plate for 2 valve(s) in PP
+- Is: 10.6mA   - at screen for 2 valve(s) in PP
+Preamp consumed:
+- ECC81:   typical: 2 * 10mA = 20mA
+           maximum: 2 * 8.3mA = 16.7mA
+- 6SL7:    typical: 6 * 2.3mA = 13.8mA
+           maximum: 6 * 3.3mA = 20mA
+
+====
+
+Selected transformer voltage: 350-0-350
+Calculated voltage at first capacitor (B+): 476.0V
+Calculated choke: 5.93H @ 51.99mA (10% plus factored in)
+  -> Resonant frequency is kept below 10Hz.
+Calculated current: 193.99mA (10% plus factored in) at 6.6kΩ load
+  -> Maximum preamp current consumption is used.
+Calculated filament current (typically the 6.3v secondary): 3A
+Calculated cathode bypass capacitor: Ck=35.01µF for Rk=1kΩ @ F=5Hz
+Calculated cathode bypass capacitor: Ck=15.92µF for Rk=2.2kΩ @ F=5Hz
+Calculated cathode bypass capacitor: Ck=6.25µF for Rk=5.6kΩ @ F=5Hz
+
+Disclaimer:
+  Please, consult your chosen tube model manufacturer data sheet, especially, when you entered the Rload.
+  Then the calculation provided is an estimation based on the assumption that Rload is not relatively small!
+  Tubes are non-linear devices and current draw may change under a number of conditions!
+  This calculation is provided in the hope of being useful as a reference only.
+  Proceed with caution! This tool disclaims any responsibility from any intended or actual use and consequences of this calculation.
+
+Thanks:
+  This tool is fully inspired by https://thesubjectmatter.com/calcptcurrent.html
+  It use formula from http://www.valvewizard.co.uk

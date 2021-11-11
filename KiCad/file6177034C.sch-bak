@@ -1,0 +1,57 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Valve:ECC83 V3
+U 2 1 617784C8
+P 2400 2500
+F 0 "V3" H 2628 2546 50  0000 L CNN
+F 1 "6SL7" H 2628 2455 50  0000 L CNN
+F 2 "Valve:Valve_Noval_P" H 2670 2100 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2400 2500 50  0001 C CNN
+	2    2400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Valve:ECC83 V3
+U 1 1 6177B4DA
+P 2400 3800
+F 0 "V3" H 2628 3754 50  0000 L CNN
+F 1 "6SL7" H 2628 3845 50  0000 L CNN
+F 2 "Valve:Valve_Noval_P" H 2670 3400 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2400 3800 50  0001 C CNN
+	1    2400 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6177F54F
+P 2300 3150
+F 0 "R?" H 2370 3196 50  0000 L CNN
+F 1 "220 1W" H 2370 3105 50  0000 L CNN
+F 2 "" V 2230 3150 50  0001 C CNN
+F 3 "~" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2900 2300 3000
+Wire Wire Line
+	2300 3300 2300 3400
+Text GLabel 1650 2500 0    50   Output ~ 0
+Preamp
+Wire Wire Line
+	1650 2500 2100 2500
+$EndSCHEMATC

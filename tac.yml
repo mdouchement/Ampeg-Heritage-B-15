@@ -1,0 +1,17 @@
+voltage: 350-0-350 # Or just `0-350' for non center tap transformer
+rectifier: GZ34 # DIODE (full wave), GZ34, EZ81, 5U4B, 5Y3
+choke_for: 0.000047 # 47µF for first PSU capacitor (use 0 to not compute choke)
+power_valves:
+  number_of_valves: 2
+  model: 6L6GC # EL34, 6L6GC, 6V6S
+  topology: PP # SE, PP
+  rload: 6600 # Output transformer primary impedance
+preamp_valves:
+- model: ECC81 # ECC81, ECC83S, ECC803S, 6SL7
+  number_of_triodes: 2
+- model: 6SL7
+  number_of_triodes: 6
+cathode_bypass_capacitors:
+- 1000.0
+- 2200.0
+- 5600.0
