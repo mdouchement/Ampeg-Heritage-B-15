@@ -8,10 +8,10 @@ Title "Ampeg Heritage B-15 Custom"
 Date "2021-10-23"
 Rev "1.0"
 Comp "https://github.com/mdouchement/Ampeg-HB15"
-Comment1 "Ampeg Heritage B15 with custom mods"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "All resistors are 1/2W unless otherwise specified"
+Comment2 "(1964 bias setting voltages shown in parenthesis)"
+Comment3 "D.C. voltage reading with no signal inserted"
+Comment4 "Ampeg Heritage B15 with custom mods"
 $EndDescr
 $Comp
 L Connector:AudioJack2 J2
@@ -874,10 +874,10 @@ F 3 "~" H 4875 5475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 Boost64-
 U 1 1 618A445D
 P 1775 2825
-F 0 "SW1" H 1775 2968 50  0000 C CNN
+F 0 "Boost64-" H 1775 2968 50  0000 C CNN
 F 1 "SW_DPST_x2" H 1775 2969 50  0001 C CNN
 F 2 "" H 1775 2825 50  0001 C CNN
 F 3 "~" H 1775 2825 50  0001 C CNN
@@ -915,10 +915,10 @@ Wire Wire Line
 Wire Wire Line
 	2025 3200 2025 3250
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Switch:SW_DPST_x2 Boost64-
 U 2 1 618CEFF8
 P 4650 2725
-F 0 "SW1" H 4650 2868 50  0000 C CNN
+F 0 "Boost64-" H 4650 2868 50  0000 C CNN
 F 1 "SW_DPST_x2" H 4650 2869 50  0001 C CNN
 F 2 "" H 4650 2725 50  0001 C CNN
 F 3 "~" H 4650 2725 50  0001 C CNN
@@ -954,10 +954,10 @@ Wire Wire Line
 Wire Wire Line
 	4375 2725 4375 2775
 $Comp
-L Switch:SW_DPST_x2 SW2
+L Switch:SW_DPST_x2 Boost66-
 U 1 1 618EC2B7
 P 1725 6475
-F 0 "SW2" H 1725 6618 50  0000 C CNN
+F 0 "Boost66-" H 1725 6618 50  0000 C CNN
 F 1 "SW_DPST_x2" H 1725 6619 50  0001 C CNN
 F 2 "" H 1725 6475 50  0001 C CNN
 F 3 "~" H 1725 6475 50  0001 C CNN
@@ -996,10 +996,10 @@ Wire Wire Line
 	1525 6475 1475 6475
 Connection ~ 1475 6475
 $Comp
-L Switch:SW_DPST_x2 SW2
+L Switch:SW_DPST_x2 Boost66-
 U 2 1 61901C9E
 P 3225 6425
-F 0 "SW2" H 3225 6568 50  0000 C CNN
+F 0 "Boost66-" H 3225 6568 50  0000 C CNN
 F 1 "SW_DPST_x2" H 3225 6569 50  0001 C CNN
 F 2 "" H 3225 6425 50  0001 C CNN
 F 3 "~" H 3225 6425 50  0001 C CNN
@@ -1130,10 +1130,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 4350 8475 4350
 $Comp
-L Device:R R29
+L Device:R R30
 U 1 1 6189C297
 P 8675 5275
-F 0 "R29" V 8468 5275 50  0000 C CNN
+F 0 "R30" V 8468 5275 50  0000 C CNN
 F 1 "47k" V 8559 5275 50  0000 C CNN
 F 2 "" V 8605 5275 50  0001 C CNN
 F 3 "~" H 8675 5275 50  0001 C CNN
@@ -1154,10 +1154,10 @@ F 3 "" H 8475 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L Device:R R29
 U 1 1 618AD902
 P 8475 5475
-F 0 "R28" H 8405 5429 50  0000 R CNN
+F 0 "R29" H 8405 5429 50  0000 R CNN
 F 1 "1M" H 8405 5520 50  0000 R CNN
 F 2 "" V 8405 5475 50  0001 C CNN
 F 3 "~" H 8475 5475 50  0001 C CNN
@@ -1182,10 +1182,10 @@ F 3 "" H 9075 6175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L Device:R R31
 U 1 1 618C9D2E
 P 9075 5975
-F 0 "R30" H 9005 5929 50  0000 R CNN
+F 0 "R31" H 9005 5929 50  0000 R CNN
 F 1 "1k 1W" H 9005 6020 50  0000 R CNN
 F 2 "" V 9005 5975 50  0001 C CNN
 F 3 "~" H 9075 5975 50  0001 C CNN
@@ -1224,10 +1224,10 @@ Wire Wire Line
 Wire Wire Line
 	9075 5775 9500 5775
 $Comp
-L Device:R R31
+L Device:R R32
 U 1 1 618D8F7E
 P 9175 3625
-F 0 "R31" H 9105 3579 50  0000 R CNN
+F 0 "R32" H 9105 3579 50  0000 R CNN
 F 1 "100k 1W" H 9105 3670 50  0000 R CNN
 F 2 "" V 9105 3625 50  0001 C CNN
 F 3 "~" H 9175 3625 50  0001 C CNN
@@ -1273,14 +1273,12 @@ Wire Wire Line
 Connection ~ 3500 2025
 Wire Wire Line
 	3500 2025 3550 2025
-Wire Wire Line
-	8375 3100 8375 3225
 Text GLabel 8375 3100 1    50   Input ~ 0
-B+4a
+B+4b
 Text GLabel 3025 900  1    50   Input ~ 0
-B+4b
+B+4a
 Text GLabel 2375 4500 1    50   Input ~ 0
-B+4b
+B+4a
 Wire Wire Line
 	4900 2725 4900 2775
 Wire Wire Line
@@ -1432,10 +1430,10 @@ F 3 "" H 7975 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L Device:R R27
 U 1 1 619B8100
 P 7975 4450
-F 0 "R26" H 7905 4404 50  0000 R CNN
+F 0 "R27" H 7905 4404 50  0000 R CNN
 F 1 "1M" H 7905 4495 50  0000 R CNN
 F 2 "" V 7905 4450 50  0001 C CNN
 F 3 "~" H 7975 4450 50  0001 C CNN
@@ -1447,10 +1445,10 @@ Wire Wire Line
 Wire Wire Line
 	7975 4250 7975 4300
 $Comp
-L Device:R R27
+L Device:R R28
 U 1 1 619C9618
 P 8150 4250
-F 0 "R27" V 7943 4250 50  0000 C CNN
+F 0 "R28" V 7943 4250 50  0000 C CNN
 F 1 "100" V 8034 4250 50  0000 C CNN
 F 2 "" V 8080 4250 50  0001 C CNN
 F 3 "~" H 8150 4250 50  0001 C CNN
@@ -1465,7 +1463,7 @@ L Device:R_POT SVolume
 U 1 1 619FEF01
 P 5975 3750
 F 0 "SVolume" H 5906 3796 50  0000 R CNN
-F 1 "A50k" H 5906 3705 50  0000 R CNN
+F 1 "A1M" H 5906 3705 50  0000 R CNN
 F 2 "" H 5975 3750 50  0001 C CNN
 F 3 "~" H 5975 3750 50  0001 C CNN
 	1    5975 3750
@@ -1488,14 +1486,12 @@ Wire Wire Line
 	5975 3975 5975 3900
 Wire Wire Line
 	6125 3750 6150 3750
-Wire Wire Line
-	6875 3225 8375 3225
 $Comp
 L Device:C C20
 U 1 1 618FF2EA
 P 7475 4650
 F 0 "C20" V 7223 4650 50  0000 C CNN
-F 1 "100nF 400V POLY" V 7314 4650 50  0000 C CNN
+F 1 "100nF 400V" V 7314 4650 50  0000 C CNN
 F 2 "" H 7513 4500 50  0001 C CNN
 F 3 "~" H 7475 4650 50  0001 C CNN
 	1    7475 4650
@@ -1560,7 +1556,6 @@ Wire Wire Line
 	9175 3225 8375 3225
 Wire Wire Line
 	9175 3225 9175 3475
-Connection ~ 8375 3225
 Wire Wire Line
 	9675 4650 9675 4700
 $Comp
@@ -1575,10 +1570,10 @@ F 3 "" H 9675 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L Device:R R33
 U 1 1 61A7B311
 P 9675 4500
-F 0 "R32" H 9605 4454 50  0000 R CNN
+F 0 "R33" H 9605 4454 50  0000 R CNN
 F 1 "1M" H 9605 4545 50  0000 R CNN
 F 2 "" V 9605 4500 50  0001 C CNN
 F 3 "~" H 9675 4500 50  0001 C CNN
@@ -1586,10 +1581,10 @@ F 3 "~" H 9675 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R33
+L Device:R R34
 U 1 1 61A84A40
 P 9925 4200
-F 0 "R33" V 9718 4200 50  0000 C CNN
+F 0 "R34" V 9718 4200 50  0000 C CNN
 F 1 "47k" V 9809 4200 50  0000 C CNN
 F 2 "" V 9855 4200 50  0001 C CNN
 F 3 "~" H 9925 4200 50  0001 C CNN
@@ -1630,4 +1625,60 @@ Wire Wire Line
 Connection ~ 5500 3500
 Wire Wire Line
 	5500 3500 5500 4550
+Text Notes 7375 4825 0    50   ~ 0
+POLY
+$Comp
+L Device:R R26
+U 1 1 61916258
+P 7700 3225
+F 0 "R26" V 7493 3225 50  0000 C CNN
+F 1 "10k 1W" V 7584 3225 50  0000 C CNN
+F 2 "" V 7630 3225 50  0001 C CNN
+F 3 "~" H 7700 3225 50  0001 C CNN
+	1    7700 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8375 3100 8375 3225
+Wire Wire Line
+	7850 3225 8375 3225
+Connection ~ 8375 3225
+Wire Wire Line
+	7550 3225 6875 3225
+Text Notes 7450 3525 0    50   ~ 0
+Drop voltage\nKeep anode safe\n300V to 280V
+Text Notes 6850 3175 0    50   ~ 0
+(191V)
+Text Notes 8450 3050 0    50   ~ 0
+(211V)
+Text Notes 9200 4825 0    50   ~ 0
+(62V)
+Text Notes 6900 4125 0    50   ~ 0
+(49V)
+Text Notes 9325 5625 0    50   ~ 0
+(1.5V)
+Text Notes 3100 875  0    50   ~ 0
+(248V)
+Text Notes 2475 4475 0    50   ~ 0
+(248V)
+Text Notes 1275 1800 0    50   ~ 0
+(108V)
+Text Notes 4125 1775 0    50   ~ 0
+(143V)
+Text Notes 4050 2825 0    50   ~ 0
+(2.27V)
+Text Notes 1250 2900 0    50   ~ 0
+(1.35V)
+Text Notes 1225 5575 0    50   ~ 0
+(98V)
+Text Notes 3175 5525 0    50   ~ 0
+(112V)
+Text Notes 2650 6475 0    50   ~ 0
+(1.3V)
+Text Notes 1325 6450 0    50   ~ 0
+(1.58V)
+Text Notes 500  5775 0    50   ~ 0
+B-15NF
+Text Notes 500  2125 0    50   ~ 0
+B-15NC
 $EndSCHEMATC

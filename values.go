@@ -22,6 +22,12 @@ func main() {
 
 func bypass() {
 	fmt.Println("Bypass capacitors:")
+
+	Rk:= 250.0 // cathode resistor in Ohms
+	F := 13.5 // Full bypass after F Hertz (a low B is about 31Hz)
+	Ck := 1 / (2 * math.Pi * Rk * F)
+	fmt.Printf("- Ck: %.2fµF at least (Rk: %.2fkΩ)\n", Ck*math.Pow(10, 6), Rk*math.Pow(10, -3))
+
 	for _, Rk := range []float64{1000.0, 2200.0, 5600.0} {
 		// Rk: cathode resistor in Ohms
 		F := 5.0 // Full bypass after 5Hz
