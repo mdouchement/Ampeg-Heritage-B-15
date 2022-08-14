@@ -2411,7 +2411,7 @@ Zz4NCjwvc3ZnPg==</data>
       <alpha>127</alpha>
       <controlPoints2>
         <point x="14.9" y="4.1"/>
-        <point x="15.9" y="5.7"/>
+        <point x="15.8" y="5.7"/>
         <point x="15.2" y="6.9"/>
       </controlPoints2>
       <color hex="3333ff"/>
@@ -2423,7 +2423,7 @@ Zz4NCjwvc3ZnPg==</data>
       <color2 hex="ffffff"/>
       <stripeColor hex="ffee00"/>
       <stripeColor2 hex="ff00ff"/>
-      <stripe1>true</stripe1>
+      <stripe1>false</stripe1>
       <stripe2>false</stripe2>
     </diylc.connectivity.TwistedWire>
     <diylc.connectivity.HookupWire>
@@ -2664,7 +2664,7 @@ Zz4NCjwvc3ZnPg==</data>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
-      <striped>true</striped>
+      <striped>false</striped>
       <stripeColor hex="ffee00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.TwistedWire>
@@ -2685,7 +2685,7 @@ Zz4NCjwvc3ZnPg==</data>
       <color2 hex="ff0033"/>
       <stripeColor hex="ffee00"/>
       <stripeColor2 hex="ff00ff"/>
-      <stripe1>true</stripe1>
+      <stripe1>false</stripe1>
       <stripe2>false</stripe2>
     </diylc.connectivity.TwistedWire>
     <diylc.connectivity.HookupWire>
@@ -4601,7 +4601,7 @@ Zz4NCjwvc3ZnPg==</data>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>true</hideShortLeads>
-      <value value="22.0" unit="K"/>
+      <value value="10.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="2.0" unit="W"/>
       <colorCode>NONE</colorCode>
@@ -10400,7 +10400,7 @@ Zz4NCjwvc3ZnPg==</data>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>true</hideShortLeads>
-      <value value="47.0" unit="K"/>
+      <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
       <colorCode>NONE</colorCode>
@@ -10770,201 +10770,212 @@ Zz4NCjwvc3ZnPg==</data>
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.misc.Label>
+      <name>L23</name>
+      <point x="0.55" y="0.85"/>
+      <text>This layout may&lt;br&gt; not up-to-date&lt;br&gt;(values &amp; mods)</text>
+      <font name="Dialog.bold" size="20" style="1"/>
+      <color hex="ff0000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[139]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[125]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[170]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[150]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[177]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[155]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[75]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[147]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[37]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[128]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[92]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[80]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[61]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[76]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[153]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[21]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[31]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[6]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[181]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[164]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[162]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[17]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[27]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[102]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[78]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[109]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[173]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[79]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[51]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[108]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[89]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[131]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[156]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[42]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[87]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[7]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[176]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[120]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[182]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[33]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[94]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[159]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[77]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[111]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[129]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[140]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[50]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[141]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[9]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[23]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[30]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[99]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[96]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[177]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[19]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[5]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[88]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[81]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[157]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[84]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[68]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[49]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[34]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[65]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[41]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[180]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[171]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[97]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[18]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[130]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[114]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[86]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[168]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[165]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[124]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[115]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[13]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[63]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[172]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[101]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[55]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[98]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[73]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[151]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[93]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[123]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[24]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[10]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[100]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[40]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[55]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[105]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[66]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[18]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[98]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[170]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[95]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[172]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[132]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[51]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[162]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[164]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[56]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[131]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[138]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[114]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[173]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[93]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[15]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[13]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[89]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[79]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[46]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[87]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[88]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[61]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[38]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[9]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[60]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[128]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[141]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[77]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[73]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[122]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[112]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[42]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[37]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[113]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[76]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[54]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[85]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[168]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[43]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[72]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[64]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[152]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[7]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[29]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[145]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[40]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[171]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[129]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[159]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[119]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[48]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[142]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[149]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[106]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[14]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[39]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[175]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[136]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[80]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[146]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[35]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[133]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[22]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[158]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[78]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[111]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[27]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[151]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[179]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[147]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[165]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[92]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[123]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[139]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[17]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[166]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[86]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[127]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[23]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[3]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[100]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[32]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[148]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[74]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[103]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[150]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[115]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[47]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[71]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[44]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[124]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[25]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[30]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[82]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[62]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[130]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[21]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[181]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[90]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[70]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[94]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[97]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[180]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[53]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[57]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[16]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[41]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[182]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[26]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[137]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[110]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[109]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[160]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[108]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[169]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[120]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[31]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[174]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[67]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[135]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[126]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[81]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[58]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[176]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[8]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[36]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[6]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[125]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[12]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[28]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[144]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[121]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[161]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[65]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[83]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[178]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[143]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[3]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[71]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[127]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[133]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[144]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[117]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[25]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[119]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[96]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[29]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[149]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[58]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[54]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[121]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[47]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[69]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[95]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[44]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[154]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[179]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[103]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[74]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[84]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[99]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[52]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[20]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[11]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[68]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[158]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[132]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[16]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[152]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[14]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[135]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[137]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[12]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[148]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[19]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[116]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[105]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[113]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[83]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[4]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[70]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[118]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[169]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[46]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[163]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[138]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[45]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[107]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[161]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[140]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[15]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[167]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[22]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[57]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[39]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[56]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[72]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[62]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[35]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[48]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[110]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[112]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[36]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[38]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[90]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[43]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[67]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[142]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[8]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[134]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[145]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[160]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[60]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[4]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[75]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[116]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[154]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[153]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[101]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[156]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[118]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[104]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[82]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[26]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[174]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[66]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[146]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[28]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[64]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[166]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[122]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[32]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[136]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[63]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[69]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[117]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[45]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[11]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[167]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[91]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[20]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[163]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[155]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[102]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[33]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[34]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[10]"/>
+      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[134]"/>
       <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[59]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[126]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[175]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[53]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[157]"/>
-      <diylc.connectivity.Turret reference="../../../components/diylc.connectivity.Turret[106]"/>
     </set>
   </groups>
   <lockedLayers/>
   <lockedComponents>
     <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet[4]"/>
     <diylc.shapes.Rectangle reference="../../components/diylc.shapes.Rectangle"/>
-    <diylc.misc.Label reference="../../components/diylc.misc.Label"/>
-    <diylc.shapes.Rectangle reference="../../components/diylc.shapes.Rectangle[3]"/>
+    <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet[3]"/>
+    <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet[2]"/>
     <diylc.misc.Label reference="../../components/diylc.misc.Label[2]"/>
     <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet"/>
-    <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet[2]"/>
-    <diylc.connectivity.Eyelet reference="../../components/diylc.connectivity.Eyelet[3]"/>
+    <diylc.shapes.Rectangle reference="../../components/diylc.shapes.Rectangle[3]"/>
+    <diylc.misc.Label reference="../../components/diylc.misc.Label"/>
   </lockedComponents>
   <hiddenLayers/>
   <font name="Dialog.plain" size="14" style="0"/>

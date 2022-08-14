@@ -1,0 +1,7 @@
+# https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/
+
+* text=auto
+*.md eol=lf
+*.go eol=lf
+*.schx eol=lf
+*.cir eol=lf

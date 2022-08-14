@@ -1,8 +1,6 @@
-//
 // Could be executed in:
 // - https://play.golang.org/
 // - https://goplay.space/
-//
 package main
 
 import (
@@ -23,8 +21,8 @@ func main() {
 func bypass() {
 	fmt.Println("Bypass capacitors:")
 
-	Rk:= 250.0 // cathode resistor in Ohms
-	F := 13.5 // Full bypass after F Hertz (a low B is about 31Hz)
+	Rk := 250.0 // cathode resistor in Ohms
+	F := 13.5   // Full bypass after F Hertz (a low B is about 31Hz)
 	Ck := 1 / (2 * math.Pi * Rk * F)
 	fmt.Printf("- Ck: %.2fµF at least (Rk: %.2fkΩ)\n", Ck*math.Pow(10, 6), Rk*math.Pow(10, -3))
 
